@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anuja Ladies Tailor</title>
+    <title>BoutiqueFit</title>
 
     <!-- swiper link  -->
     <link
@@ -26,7 +26,7 @@
     <header class="header">
       <div class="logoContent">
         <a href="#" class="logo"><img src="Assets/logo-small.png" alt="" /></a>
-        <h1 class="logoName">Anuja Ladies Tailor</h1>
+        <h1 class="logoName">BoutiqueFit</h1>
       </div>
 
       <nav class="navbar">
@@ -229,18 +229,21 @@
 
     <!-- blogs section ends here  -->
 
-    <!-- newsletter section start here  -->
-
     <section class="newsletter">
-      <form action="">
-        <h3 style="color: black">subscribe for latest update</h3>
+      <form action="subscribe.php" method="post">
+        <label for="email" style="color: black"
+          >subscribe for latest update</label
+        >
         <input
           type="email"
-          name="subscribe_email"
+          id="email"
+          name="email"
           placeholder="enter your email"
           class="box"
         />
-        <button type="button" value="subscribe" class="box2" name="subscribe" />
+        <button type="submit" value="subscribe" class="box2" name="subscribe">
+          subscribe
+        </button>
       </form>
     </section>
     <!-- newsletter section ends here  -->
@@ -336,7 +339,7 @@
         <div class="mainBox">
           <div class="content">
             <a href="#"><img src="Assets/logo-small.png" alt="" /></a>
-            <h1 class="logoName">Anuja Ladies Tailor</h1>
+            <h1 class="logoName">BoutiqueFit</h1>
           </div>
 
           <p>
@@ -353,7 +356,7 @@
         </div>
         <div class="box">
           <h3>Extra link</h3>
-          <a href="#"> <i class="fas fa-arrow-right"></i>Account info</a>
+          <!-- <a href="#"> <i class="fas fa-arrow-right"></i>Account info</a> -->
           <a href="privacy.html">
             <i class="fas fa-arrow-right"></i>privacy policy</a
           >

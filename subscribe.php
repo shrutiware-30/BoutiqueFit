@@ -23,7 +23,7 @@ if (isset($_POST['subscribe'])) {
 }
 
 if ($conn->query($sql) === TRUE) {
-    // echo "Thank you for your feedback!";
+    echo "Thank you for your feedback!";
     header("Location: index.html");
     exit;
 } else {
@@ -31,4 +31,3 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
-?>

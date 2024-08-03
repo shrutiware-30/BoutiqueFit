@@ -270,7 +270,7 @@ section {
   text-align: center;
   padding: 5rem 0;
 }
-.newsletter form h3 {
+.newsletter form label {
   font-size: 3rem;
   color: var(--white);
   padding-bottom: 0.7rem;
